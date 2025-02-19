@@ -9,6 +9,10 @@
   background-color: transparent;
   z-index: 1000;
   padding: 20px 0;
+  transition: 0.5s ease all;
+}
+#header.sticky {
+  background-color: var(--dark);
 }
 
 #navbar {
