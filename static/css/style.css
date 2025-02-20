@@ -116,9 +116,8 @@
 }
 
 .image img {
-  width: 500px;
-  height: 500px;
-  border-radius: 10px;
+  max-width: 100%;
+  border-radius: 20px;
 }
 
 .content {
@@ -165,7 +164,7 @@ a {
 
 .count-box span.purecounter {
   font-size: 40px;
-  color: #333;
+  color: var(--dark);
   font-weight: bold;
 }
 
@@ -173,48 +172,6 @@ a {
   margin-top: 50px;
 }
 
-.progress {
-  margin-bottom: 20px;
-}
-
-.progress .skill {
-  font-size: 16px;
-  font-weight: bold;
-  color: var(--dark);
-  margin-left: 10px;
-}
-
-.progress-bar-wrap {
-  position: relative;
-  width: 100%;
-  background-color: var(--primary);
-  height: 12px;
-  border-radius: 5px;
-}
-
-.progress-bar {
-  height: 100%;
-  border-radius: 5px;
-  background-color: #20b38e;
-  width: 0;
-  transition: width 1s ease;
-}
-
-.progress-bar[data-purecounter-end="90"] {
-  width: 90%;
-}
-
-.progress-bar[data-purecounter-end="70"] {
-  width: 70%;
-}
-
-.progress-bar[data-purecounter-end="85"] {
-  width: 85%;
-}
-
-.progress-bar[data-purecounter-end="75"] {
-  width: 75%;
-}
 /* Resume Section */
 #resume {
   background: radial-gradient(
@@ -245,10 +202,11 @@ a {
   font-size: 24px;
   font-weight: 700;
   color: var(--primary);
-  margin-bottom: 15px;
-  border-bottom: 2px var(--primary);
+  margin-bottom: 20px;
+  margin-top: 20px;
+
   display: inline-block;
-  padding-bottom: 5px;
+  padding-bottom: 30px;
 }
 
 .resume-item {
@@ -263,31 +221,34 @@ a {
   font-size: 20px;
   font-weight: 600;
   color: var(--light);
+  margin-bottom: 12px;
 }
 
 .resume-item h5 {
   font-size: 16px;
   font-weight: 500;
-  color: white;
-  margin-bottom: 10px;
+  color: var(--light);
+  margin-bottom: 12px;
 }
 
 .resume-item p {
-  font-size: 14px;
-  color: white;
-  line-height: 1.6;
+  font-size: 15px;
+  color: var(--light);
+  line-height: 1.5;
+  margin-bottom: 10px;
 }
 
 .resume-item ul {
   padding-left: 20px;
   list-style: none;
+  color: var(--light);
 }
 
 .resume-item ul li {
   position: relative;
   padding-left: 25px;
-  font-size: 14px;
-  color: white;
+  font-size: 15px;
+  color: var(--light);
   margin-bottom: 10px;
 }
 

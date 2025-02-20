@@ -9,12 +9,12 @@
   --sans-serif-alt: "Bebas Neue", cursive;
 
   /* Colors */
-  --primary: #ffc451;
-  /* --dark: #171717; */
+  --primary: #dcd427;
+
   --dark: #040406;
   --dark-alt: #101010;
   --light: #ffffff;
-  --light-alt: #fff2d2;
+  --light-alt: #bfbfbf;
 
   /* Shadow */
   --shadow: 0px 4px 20px 0px #173c52;
@@ -28,7 +28,7 @@
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  scrollbar-color: var(--primary) transparent;
+  scrollbar-color: var(#bfbfbf) transparent;
   scrollbar-width: thin;
 }
 *::selection {
